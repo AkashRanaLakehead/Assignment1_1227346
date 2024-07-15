@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 //        Spinner Task
         val mySpinner: Spinner = findViewById(R.id.mySpinner)
         planetDetailsTextView = findViewById(R.id.planetDetails)
-        progressContainer = findViewById""(R.id.progressContainer)
+        progressContainer = findViewById(R.id.progressContainer)
         backgroundImageView = findViewById(R.id.backgroundImageView)
 
         val adapter = ArrayAdapter.createFromResource(this,
